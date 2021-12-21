@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -0.02em;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+a {
+    font-size: 18px;
+    line-height: 20px;
+    color: #8492a6;
+    text-decoration: none;
+    padding: 16px 20px;
+    transition: .5s;
+}
+
+a:hover {
+    font-weight: bold;
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+ul::after {
+    content: "";
+    clear: left;
+    display: block;
+}
+
+
+/* ▼ WHERE YOUR CODE BEGINS */
